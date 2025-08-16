@@ -7,7 +7,7 @@ export function SocketProvider({ children }) {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    const s = io('http://localhost:5000');
+    const s = io('https://messageworkflow1.onrender.com/');
     setSocket(s);
     
     s.on('connect', () => {
