@@ -9,7 +9,7 @@ import { SocketProvider } from './context/SocketContext';
 import axios from 'axios';
 
 // Set axios default base URL
-axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = 'https://messageworkflow1.onrender.com/';
 
 function App() {
   return (
